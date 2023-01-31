@@ -1,0 +1,46 @@
+*make repository
+git init
+
+*make and change in README
+vi README.md
+
+*commit
+git add README.md
+git commit -m "inital commit"
+
+*create new branch and switch over
+git checkout -b "feature1"
+
+git add
+git commit
+
+git checkout main
+git add
+git commit
+
+git merge feature1
+git add
+git commit
+
+git tag extinct
+git add 
+git commit
+
+git revert "name of commit"
+vi .README.md
+git add .README.md
+git commit 
+git revert --continue 
+vi .README.md
+git add .README.md 
+git commit 
+git branch feature2 
+vi fil1.txt
+git add fil1.txt
+git commit 
+vi fil2.txt
+git add fil2.txt
+git commit 
+git checkout main
+git cherry-pick "Commiten som var commiten där fil2.txt lades till"
+vi fil2.txt
